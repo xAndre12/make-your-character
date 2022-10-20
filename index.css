@@ -18,6 +18,7 @@ main{
     height: 750px;
     width: 680px;
     left: 605px;
+    top:170px;
     position: absolute;
 }
 .cap{
@@ -27,12 +28,16 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+
 .ochi{
     /* border: 2px solid red; */
     height: 190px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.ochi div{
+    width: 550px;
 }
 .nas{
     /* border: 2px solid red; */
@@ -99,7 +104,7 @@ main{
 }
 .ochiversion{
     height:180px;
-    width: 1050px;
+    width: 100%;
     cursor: pointer;
 }
 .nasversion{
